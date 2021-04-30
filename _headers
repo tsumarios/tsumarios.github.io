@@ -1,0 +1,6 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; img-src 'self' https://*; style-src 'self' https://*.fontawesome.com; font-src 'self' https://*.fontawesome.com
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: geolocation 'none'; notifications 'none'; microphone 'none'; camera 'none'; payment 'none'
