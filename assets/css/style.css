@@ -137,6 +137,61 @@ ul {
 	z-index: 1;
 }
 
+/******* Blog Screen *******/
+.blog-screen {
+	width: 100%;
+	margin: 0;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.blog-screen .caption {
+	display: inline-block;
+	width: 100%;
+	padding: 60px;
+	padding-bottom: 30px;
+}
+
+.blog-screen .caption .caption-content {
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-bottom: 0;
+}
+
+.blog-screen .caption .caption-list ul li div {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.blog-screen .caption .caption-list ul li div p {
+	margin: 2px;
+}
+
+.blog-screen .work {
+	padding: 4px 4px 12px 4px;
+	text-align: justify;
+}
+
+.blog-screen .work h4 {
+	padding: 16px;
+	padding-bottom: 0;
+}
+
+.blog-screen .work p {
+	padding: 16px;
+	padding-top: 8px;
+}
+
+.blog-screen .work img {
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center center;
+}
+
 /******* About Screen *******/
 .about-screen {
 	width: 100%;
@@ -315,11 +370,15 @@ ul {
 
 	.header .menu .menu-item {
 		display: inline-block;
-		width: 25%;
+		width: 20%;
 	}
 
 	.header .menu .menu-item a {
 		width: 100%;
+	}
+
+	.header .menu .menu-item a span {
+		display: none;
 	}
 
 	/* About Screen */
@@ -390,6 +449,21 @@ ul {
 		font-size: 20px;
 	}
 
+	/* Blog Screen */
+	.blog-screen .caption .caption-list {
+		font-size: 0.84em;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+	.blog-screen .caption .caption-list ul li div p {
+		width: 100%;
+	}
+
+	.blog-screen .work img {
+		height: 200px;
+	}
+
 	/* About Screen */
 	.about-screen .caption {
 		margin: 0px;
@@ -432,6 +506,7 @@ ul {
 	/* Footer */
 	.footer p {
 		width: 100%;
+		font-size: 0.9em;
 		padding: 12px 6px;
 		text-align: center;
 	}
