@@ -210,6 +210,10 @@ ul {
 	background: #fff;
 }
 
+.about-screen .caption.caption-center {
+	margin: auto;
+}
+
 .about-screen .caption .caption-content.first {
 	padding-bottom: 30px;
 }
