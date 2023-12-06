@@ -8,7 +8,7 @@ $(document).ready(() => {
 	// List paginations
 	let options = {
 		valueNames: ['name'],
-		page: 5,
+		page: 3,
 		pagination: true,
 	}
 	var pubsList = new List('pubs-list', options);
