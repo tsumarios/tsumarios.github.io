@@ -88,6 +88,25 @@ ul {
 	margin: 0;
 }
 
+.search {
+	font-family: Arial, FontAwesome;
+	text-align: center;
+}
+
+.pagination {
+	display: inline;
+}
+
+.pagination li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.pagination li.active a {
+	color: #ffcf70;
+	border-bottom: 1px solid #ffcf70;
+}
+
 /* Colors */
 .yellow {
 	color: #f3a712;

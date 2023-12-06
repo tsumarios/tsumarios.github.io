@@ -5,6 +5,15 @@ $(document).ready(() => {
 	// Generate year from Date() to show on the footer content
 	$('.footer .footer-content span').append(new Date().getFullYear());
 
+	// List paginations
+	let options = {
+		valueNames: ['name'],
+		page: 5,
+		pagination: true,
+	}
+	var pubsList = new List('pubs-list', options);
+	var talksList = new List('talks-list', options);
+
 	// Cache selectors
 	var lastId,
 		topMenu = $('#menu'),
@@ -12,7 +21,7 @@ $(document).ready(() => {
 		// All list items
 		menuItems = topMenu.find('a'),
 		// Anchors corresponding to menu items
-		scrollItems = menuItems.map(function() {
+		scrollItems = menuItems.map(function () {
 			var item = $($(this).attr('href'));
 			if (item.length) {
 				return item;
@@ -21,7 +30,7 @@ $(document).ready(() => {
 
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
-	menuItems.click(function(e) {
+	menuItems.click(function (e) {
 		e.preventDefault();
 		var href = $(this).attr('href'),
 			offsetTop = href === '#' ? 0 : $(href).offset().top - topMenuHeight + 15;
@@ -34,12 +43,12 @@ $(document).ready(() => {
 	});
 
 	// Bind to scroll
-	$(window).scroll(function() {
+	$(window).scroll(function () {
 		// Get container scroll position
 		var fromTop = $(this).scrollTop() + topMenuHeight;
 
 		// Get id of current scroll item
-		var cur = scrollItems.map(function() {
+		var cur = scrollItems.map(function () {
 			if ($(this).offset().top < fromTop) return this;
 		});
 		// Get the id of the current element
@@ -53,4 +62,5 @@ $(document).ready(() => {
 			menuItems.parent().removeClass('active').end().filter("[href='#" + id + "']").parent().addClass('active');
 		}
 	});
+
 });

@@ -307,15 +307,22 @@
         <div id="works" class="row works-screen non-select">
 
             <div class="caption pubstalks" data-aos="fade-up" data-aos-duration="2000">
-                <div class="col-md-12 caption-content caption-list" data-aos="fade-up" data-aos-duration="2000">
+                <div id="pubs-list" class="col-md-12 caption-content caption-list" data-aos="fade-up"
+                    data-aos-duration="2000">
                     <h4>Selected Publications</h4>
                     <p>The full list is available on my <a href="https://orcid.org/0000-0002-7045-0213"
                             target="_blanck">ORCID</a> profile.
                     </p>
-                    <ul>
+                    <input type="text" class="search" placeholder="&#xF002; Search Publications" />
+                    <div>
+                        <i class="fa-solid fa-bars-staggered"></i>
+                        <ul class="pagination"></ul>
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <ul class="list">
                         <li>
                             <div data-aos="fade-right" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fas fa-scroll"></i> Raciti M. and Bella G. (In press.)
                                     <a href="https://doi.org/10.48550/arXiv.2308.11273" target="_blanck">Up-to-date
                                         Threat Modelling for Soft Privacy on Smart
@@ -328,7 +335,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-right" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fas fa-scroll"></i> Raciti M. and Bella G. (Jul 2023)
                                     <a href="http://dx.doi.org/10.1109/EuroSPW59978.2023.00005" target="_blanck">A
                                         Threat Model
@@ -341,7 +348,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-right" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fas fa-scroll"></i> Raciti M. and Bella G. (Apr 2023)
                                     <a href="https://doi.org/10.5220/0011998800003479" target="_blanck">How to Model
                                         Privacy Threats in the Automotive
@@ -354,7 +361,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-right" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fas fa-scroll"></i> Bella G. et al. (Feb 2023)
                                     <a href="https://doi.org/10.1109/ACCESS.2023.3245333" target="_blanck">The AILA
                                         Methodology for Automated and Intelligent
@@ -366,7 +373,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-right" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fas fa-scroll"></i> Bella G. et al. (Aug 2022)
                                     <a href="https://doi.org/10.1109/CSP55486.2022.00030" target="_blanck">The AILA
                                         Methodology for Automated
@@ -379,7 +386,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-right" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fas fa-scroll"></i> Raciti M. (Jun 2022)
                                     <a href="https://indico.ict.inaf.it/event/1809/attachments/5871/11940/Raciti%20-%20The%20TMSS%20project%20for%20LOFAR%202.0%20operations.pdf"
                                         target="_blanck">The TMSS project for LOFAR 2.0 operations</a>.
@@ -391,7 +398,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-right" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fas fa-scroll"></i> Raciti M., Vitello F. R. (Mar 2022)
                                     <a href="https://openaccess.inaf.it/handle/20.500.12386/31533"
                                         target="_blanck">WebSocket Integration in Django</a>.
@@ -405,12 +412,19 @@
             </div>
 
             <div class="caption pubstalks part" data-aos="fade-up" data-aos-duration="2000">
-                <div class="col-md-12 caption-content caption-list" data-aos="fade-up" data-aos-duration="2000">
+                <div id="talks-list" class="col-md-12 caption-content caption-list" data-aos="fade-up"
+                    data-aos-duration="2000">
                     <h4>Talks and Presentations</h4>
-                    <ul>
+                    <input type="text" class="search" placeholder="&#xF002; Search Talks" />
+                    <div>
+                        <i class="fa-solid fa-bars-staggered"></i>
+                        <ul class="pagination"></ul>
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <ul class="list">
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Nov 2023) <a
                                         href="https://www.springer.com/journal/42154" target="_blanck">The SPADA
                                         Methodology for Privacy Threat Modelling</a>.
@@ -425,7 +439,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Sep 2023) <a
                                         href="https://samosweb.aegean.gr/secpre2023/" target="_blanck">Up-to-date Threat
                                         Modelling for Soft Privacy on Smart Cars</a>.
@@ -440,7 +454,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Jul 2023) <a
                                         href="https://acsw.unimore.it/program.html" target="_blanck">A Threat Model for
                                         Soft Privacy on Smart Cars</a>.
@@ -454,7 +468,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Mar 2023) <a
                                         href="https://www.dmi.unict.it/giamp/hardening/?link=2023%20Edition"
                                         target="_blanck">Subjectivity and Automation in Privacy Risk Assessment</a>.
@@ -468,7 +482,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Dec 2022) <a
                                         href="https://www.dmi.unict.it/giamp/wsf/22edition.php" target="_blanck">Risk
                                         assessement with AILA: Automated and Intelligent Likelihood Assignment</a>. The
@@ -482,7 +496,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Jun 2022) <a
                                         href="https://indico.ict.inaf.it/event/1809/attachments/5871/11940/Raciti%20-%20The%20TMSS%20project%20for%20LOFAR%202.0%20operations.pdf"
                                         target="_blanck">The TMSS project for LOFAR 2.0 operations</a>. Forum della
@@ -496,7 +510,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Jun 2022) <a
                                         href="https://iwsgateways.github.io/iwsg2022/" target="_blanck">Science Gateways
                                         in
@@ -511,7 +525,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (May 2022) <a
                                         href="https://indico.ict.inaf.it/event/1802/contributions/11758/"
                                         target="_blanck">The advantages of
@@ -525,7 +539,7 @@
                         </li>
                         <li>
                             <div data-aos="fade-left" data-aos-duration="2500">
-                                <p>
+                                <p class="name">
                                     <i class="fa-solid fa-chalkboard-user"></i> (Dec 2020) <a
                                         href="https://youtu.be/Hlr0nPiVZEM?t=8340" target="_blanck">AUtomotive Risk
                                         Assessment</a>. 3 anni di Rev3rse Security (YT
@@ -731,6 +745,7 @@
 
     <!-- Libs -->
     <script src="assets/plugins/jquery/jquery.3.3.1.js"></script>
+    <script src="assets/plugins/list/list.min.js"></script>
     <script src="assets/plugins/bootstrap-4/js/bootstrap.min.js"></script>
     <script src="assets/plugins/aos/aos.js"></script>
 
