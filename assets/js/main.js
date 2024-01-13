@@ -8,11 +8,10 @@ $(document).ready(() => {
 	// List paginations
 	let options = {
 		valueNames: ['name'],
-		page: 3,
+		page: 5,
 		pagination: true,
 	}
 	var pubsList = new List('pubs-list', options);
-	var talksList = new List('talks-list', options);
 
 	// Cache selectors
 	var lastId,

@@ -325,6 +325,15 @@ ul {
 	margin: 2px;
 }
 
+.works-screen #carouselSlides {
+	width: 100%;
+	margin-top: 8px;
+}
+
+.works-screen #carouselSlides img:hover {
+	opacity: 0.5;
+}
+
 .works-screen .work {
 	padding: 4px 4px 12px 4px;
 	text-align: justify;
