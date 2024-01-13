@@ -290,66 +290,66 @@ ul {
 	font-size: 0.9em;
 }
 
-/******* Works Screen *******/
-.works-screen {
+/******* Research Screen *******/
+.research-screen {
 	width: 100%;
 	margin: 0;
 	padding-bottom: 30px;
 	text-align: center;
 }
 
-.works-screen .caption {
+.research-screen .caption {
 	display: inline-block;
 	width: 100%;
 	padding: 60px;
 	padding-bottom: 30px;
 }
 
-.works-screen .caption.part {
+.research-screen .caption.part {
 	padding-top: 0px;
 }
 
-.works-screen .caption .caption-content {
+.research-screen .caption .caption-content {
 	padding-left: 60px;
 	padding-right: 60px;
 	margin-bottom: 0;
 }
 
-.works-screen .caption .caption-list ul li div {
+.research-screen .caption .caption-list ul li div {
 	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.works-screen .caption .caption-list ul li div p {
+.research-screen .caption .caption-list ul li div p {
 	margin: 2px;
 }
 
-.works-screen #carouselSlides {
+.research-screen #carouselSlides {
 	width: 100%;
 	margin-top: 8px;
 }
 
-.works-screen #carouselSlides img:hover {
+.research-screen #carouselSlides img:hover {
 	opacity: 0.5;
 }
 
-.works-screen .work {
+.research-screen .work {
 	padding: 4px 4px 12px 4px;
 	text-align: justify;
 }
 
-.works-screen .work h4 {
+.research-screen .work h4 {
 	padding: 16px;
 	padding-bottom: 0;
 }
 
-.works-screen .work p {
+.research-screen .work p {
 	padding: 16px;
 	padding-top: 8px;
 }
 
-.works-screen .work img {
+.research-screen .work img {
 	width: 100%;
 	height: 300px;
 	background-size: cover;
@@ -434,8 +434,8 @@ ul {
 		padding-right: 12px;
 	}
 
-	/* Works Screen */
-	.works-screen .work.work-latest {
+	/* Research Screen */
+	.research-screen .work.work-latest {
 		padding-bottom: 35px;
 	}
 
@@ -525,23 +525,23 @@ ul {
 		padding: 0px;
 	}
 
-	/* Works Screen */
-	.works-screen .caption.pubstalks {
+	/* Research Screen */
+	.research-screen .caption.pubstalks {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
 
-	.works-screen .caption .caption-list {
+	.research-screen .caption .caption-list {
 		font-size: 0.84em;
 		padding-left: 12px;
 		padding-right: 12px;
 	}
 
-	.works-screen .caption .caption-list ul li div p {
+	.research-screen .caption .caption-list ul li div p {
 		width: 100%;
 	}
 
-	.works-screen .work img {
+	.research-screen .work img {
 		height: 200px;
 	}
 
