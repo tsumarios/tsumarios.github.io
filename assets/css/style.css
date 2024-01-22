@@ -233,10 +233,6 @@ ul {
 	margin: auto;
 }
 
-.about-screen .caption .caption-content.first {
-	padding-bottom: 30px;
-}
-
 .about-screen .caption .caption-content.last {
 	padding-bottom: 30px;
 }
@@ -251,6 +247,10 @@ ul {
 	padding-right: 60px;
 	padding-top: 30px;
 	text-align: justify;
+}
+
+.about-screen .caption .short-bio-caption {
+	line-height: 1.5em;
 }
 
 .about-screen .caption .caption-content .caption-with-pic {
