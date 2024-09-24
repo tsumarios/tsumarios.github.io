@@ -376,6 +376,13 @@ ul {
 	text-align: center;
 }
 
+.contacts-screen .contacts .contacts-content .socials img {
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
 .contacts-screen .contacts .contacts-content .socials .social-item {
 	text-align: center;
 	display: block;
@@ -452,6 +459,10 @@ ul {
 	.contacts-screen .contacts .contacts-content p {
 		padding-left: 12px;
 		padding-right: 12px;
+	}
+
+	.contacts-screen .contacts .contacts-content .socials img {
+		max-width: 70%;
 	}
 
 	.contacts-screen .contacts .contacts-content .socials .social-item {
